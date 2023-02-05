@@ -12,6 +12,7 @@ $ pip install -r requirements.txt
 ```py 
 imgPath='picture.png' # img path
 ```
+
 <img src='./input/demo.jpg' width='30%' height='50%' />
 
 ## execute command to run python
