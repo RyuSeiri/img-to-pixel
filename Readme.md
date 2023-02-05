@@ -10,8 +10,9 @@ $ pip install -r requirements.txt
 ## fix pixel.py `imgPath` param
 
 ```py 
-imgPath='input/picture.png' # img path
+imgPath='picture.png' # img path
 ```
+![demo.jpg](./input/demo.jpg)
 
 ## execute command to run python
 
@@ -19,10 +20,11 @@ imgPath='input/picture.png' # img path
 $ python pixel.py
 ```
 
-
 ## confirm output picture in output folder
 
 ```
 output
-  |--- result
+  |--- picture.png
 ```
+
+![demo.png](./output/demo.png)
