@@ -3,7 +3,7 @@ import numpy as np
 
 imgPath = 'demo.jpg'  # img path
 HOGThreshold = 1000  # border
-resizeShape = (64, 64)  # output size
+resizeShape = (100, 100)  # output size
 colorSteps = 16  # Used to determine the color scale of the output image
 
 # How to handle the output image boundary, 'dark': deepen, 'color': solid color
