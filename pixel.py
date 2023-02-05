@@ -51,6 +51,6 @@ for r in range(resizeShape[0]):
 
                     resizedImg[r][c][i] = min(
                         int(resizedImg[r][c][i] * edgeDakenRate), 255)
-cv2.imshow("output", resizedImg)
-cv2.waitKey()
+# cv2.imshow("output", resizedImg)
+# cv2.waitKey()
 cv2.imwrite(img=resizedImg, filename=str(f'./output/{imgPath[:-3]}png'))
